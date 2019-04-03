@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- App Name -->
+    <string name="app_name">UnitBean</string>
+
+    <!-- Initialization value for TextViews -->
+    <string name="init_title">Title</string>
+    <string name="init_date">01 jan, 2000</string>
+    <string name="init_content">Content. Some text</string>
+    <string name="init_comment_amount">5</string>
+
+</resources>

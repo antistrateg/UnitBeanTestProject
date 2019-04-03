@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/item_background"
+    android:paddingTop="@dimen/item_border_padding"
+    android:paddingStart="@dimen/item_border_padding"
+    android:paddingEnd="@dimen/item_border_padding"
+    android:paddingBottom="@dimen/zero_padding">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/llElement"
+        android:background="@drawable/rlist_shadow"
+        android:padding="@dimen/item_border_padding">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/title_font_size"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@color/title_font_color"
+            android:text="@string/init_title" />
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/date_top_margin"
+            android:textSize="@dimen/date_font_size"
+            android:textColor="@color/date_font_color"
+            style="@style/TextAppearance.AppCompat.Caption"
+            android:text="@string/init_date" />
+
+        <TextView
+            android:id="@+id/tvContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/content_top_margin"
+            android:textSize="@dimen/content_font_size"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/content_font_color"
+            android:text="@string/init_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end">
+
+            <ImageView
+                android:id="@+id/imgV"
+                android:layout_width="@dimen/comment_icon_size"
+                android:layout_height="@dimen/comment_icon_size"
+                android:src="@drawable/ic_comment" />
+
+            <TextView
+                android:id="@+id/tvCommentAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginStart="@dimen/content_amount_margin"
+                android:layout_marginEnd="@dimen/content_amount_margin"
+                android:textSize="@dimen/comment_amount_font_size"
+                android:textColor="@color/comment_amount_font_color"
+                android:text="@string/init_comment_amount" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

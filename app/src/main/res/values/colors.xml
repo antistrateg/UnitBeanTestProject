@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- App -->
+    <color name="colorPrimary">#D53824</color>
+    <color name="colorPrimaryDark">#AA2C1C</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorLightGrey">#969696</color>
+
+    <!-- Background -->
+    <color name="item_background">#F0F0F0</color>
+
+    <!-- Shadow -->
+    <color name="item_shadow">#DADBDB</color>
+
+    <!-- Line -->
+    <color name="line_color">#D6D6D6</color>
+
+    <!-- Font -->
+    <color name="title_font_color">@color/colorPrimary</color>
+    <color name="date_font_color">@color/colorLightGrey</color>
+    <color name="content_font_color">#3E3E3E</color>
+    <color name="comment_amount_font_color">@color/colorLightGrey</color>
+    <color name="user_name_font_color">#3E3E3E</color>
+    <color name="comment_date_font_color">@color/colorLightGrey</color>
+    <color name="comment_font_color">#6E6E6E</color>
+
+</resources>

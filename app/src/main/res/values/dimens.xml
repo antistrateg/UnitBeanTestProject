@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- Padding -->
+    <dimen name="item_border_padding">20dp</dimen>
+    <dimen name="zero_padding">0dp</dimen>
+
+    <!-- Margin -->
+    <dimen name="date_top_margin">6dp</dimen>
+    <dimen name="content_top_margin">12dp</dimen>
+    <dimen name="content_amount_margin">6dp</dimen>
+    <dimen name="comment_top_margin">12dp</dimen>
+
+    <!-- Shadow -->
+    <dimen name="item_shadow_top">1dp</dimen>
+    <dimen name="item_shadow">2dp</dimen>
+    <dimen name="shadow_radius">6dp</dimen>
+    <dimen name="item_radius">4dp</dimen>
+
+    <!-- Line -->
+    <dimen name="line_height">1dp</dimen>
+
+    <!-- Image -->
+    <dimen name="user_avatar_size">50dp</dimen>
+    <dimen name="comment_icon_size">30dp</dimen>
+
+    <!-- ProgressBar -->
+    <dimen name="progressbar_size">40dp</dimen>
+
+    <!-- Font size -->
+    <dimen name="title_font_size">20sp</dimen>
+    <dimen name="date_font_size">16sp</dimen>
+    <dimen name="content_font_size">16sp</dimen>
+    <dimen name="comment_amount_font_size">16sp</dimen>
+    <dimen name="user_name_font_size">16sp</dimen>
+    <dimen name="comment_date_font_size">16sp</dimen>
+    <dimen name="comment_font_size">16sp</dimen>
+
+</resources>

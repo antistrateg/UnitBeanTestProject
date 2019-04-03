@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/item_border_padding"
+    android:paddingEnd="@dimen/item_border_padding"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/item_border_padding"
+        android:paddingBottom="@dimen/item_border_padding">
+
+        <ImageView
+            android:layout_width="@dimen/user_avatar_size"
+            android:layout_height="@dimen/user_avatar_size"
+            android:src="@drawable/ic_user"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="@dimen/item_border_padding"
+            android:paddingEnd="@dimen/zero_padding">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/user_name_font_size"
+                    style="@style/TextAppearance.AppCompat.Title"
+                    android:layout_gravity="center_vertical|start"
+                    android:textColor="@color/user_name_font_color"
+                    android:text="@string/init_title" />
+
+                <TextView
+                    android:id="@+id/tvDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/comment_date_font_size"
+                    style="@style/TextAppearance.AppCompat.Caption"
+                    android:layout_gravity="top|end"
+                    android:textColor="@color/comment_date_font_color"
+                    android:text="@string/init_date" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tvComment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/comment_font_size"
+                android:layout_marginTop="@dimen/comment_top_margin"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/comment_font_color"
+                android:text="@string/init_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:background="@color/line_color"/>
+
+</LinearLayout>
