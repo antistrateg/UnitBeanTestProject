@@ -22,12 +22,17 @@ public class Auxiliary {
             String sign = s.substring(i,i+1);
             if (sign.equals("\n")){
                 result += "." + sign;
-                sign = s.substring(i+1,i+2).toUpperCase();
+                i++;
+                sign = s.substring(i,i+1).toUpperCase();
             }
             result += sign;
         }
         result += ".";
         return result;
+    }
+
+    public static String getNameFromEmail(String s){
+        return s.substring(0, s.indexOf('@'));
     }
 
 

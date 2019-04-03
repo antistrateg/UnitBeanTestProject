@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import com.unitbean.UnitBean.R;
+import static com.unitbean.UnitBean.Utils.Auxiliary.getNameFromEmail;
 
 public class CommentAdapter extends RecyclerView.Adapter<CommentAdapter.ListViewHolder>{
 
@@ -64,7 +65,7 @@ public class CommentAdapter extends RecyclerView.Adapter<CommentAdapter.ListView
         }
 
         void bind(int position){
-            tvName.setText(nameArray[position]);
+            tvName.setText(getNameFromEmail(nameArray[position]));
             tvComment.setText(commentArray[position]);
         }
     }
